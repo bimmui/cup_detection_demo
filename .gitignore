@@ -1,5 +1,12 @@
-
-*.tfrecord
+# Ignore all image files
 *.png
 *.jpeg
 *.xml
+
+# Ignore .tfrecord files bc they are huge af
+*.tfrecord
+
+# Ignore all directories related to the models themselves bc they're all big
+models/
+exported-models/
+pre-trained-models/
